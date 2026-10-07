@@ -15,10 +15,10 @@ account ID is replaced with `<ACCOUNT_ID>`.
 | `terraform fmt` | No changes needed |
 | `terraform validate` | `Success! The configuration is valid.` |
 | `terraform plan` | 4 to add |
-| `terraform apply` | 4 added; `aws s3 ls` shows the bucket |
+| `terraform apply` | 4 added, and `aws s3 ls` shows the bucket |
 | `terraform show` | Bucket, versioning, public access block, SSE in state |
 | `terraform output` | `bucket_name`, `bucket_arn`, `bucket_region` |
-| `terraform destroy` | 4 destroyed; `aws s3 ls` and `terraform state list` show nothing |
+| `terraform destroy` | 4 destroyed, and `aws s3 ls` and `terraform state list` show nothing |
 | AWS services research (5 READMEs) | Done — examples are written, not run |
 
 ## Task 1 — Terraform S3 demo
